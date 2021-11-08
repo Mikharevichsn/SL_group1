@@ -1,0 +1,67 @@
+.todo-wrapper {
+  font-size: 26px;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo-wrapper .list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.todo-wrapper .task {
+  border: 1px solid #7c7c7c;
+  margin-bottom: 5px;
+  padding: 4px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.todo-wrapper .task.task-done {
+  background-color: hotpink;
+}
+
+.todo-wrapper .task.task-done .title {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.todo-wrapper .task .title {
+  max-width: 75%;
+}
+
+.todo-wrapper .task .btn {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #000;
+  outline: 1px solid transparent;
+}
+
+.todo-wrapper .task .btn-complete {
+  width: initial;
+}
+
+.todo-wrapper .task .btn:hover {
+  background-color: #f62019;
+  cursor: pointer;
+  color: #fff;
+
+  border: 1px solid #fff;
+  outline: 1px solid #000;
+}
+
+.todo-wrapper .task .btn-complete:hover {
+  background-color: lawngreen;
+}
+
+.todo-wrapper .task:hover {
+  border: 1px solid #1e08eb;
+}
