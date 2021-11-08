@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Ivan Ivanov"
+    },
+    {
+      "title": "aaaaa",
+      "author": "qqqq",
+      "id": 4
+    },
+    {
+      "title": "qqqqqq",
+      "author": "qqqqq",
+      "id": 5
+    },
+    {
+      "title": "fff",
+      "author": "dddd",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Ivan Ivanov"
+  }
+}
